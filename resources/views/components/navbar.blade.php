@@ -16,15 +16,85 @@
 
     <!-- White Nav -->
     <div class="bg-white py-4 flex flex-row justify-between items-center sticky top-0 px-10 shadow-md transition-transform duration-300" id="whiteNav">
-        <div>
+        <a href="/">
             <img src="https://www.uii.ac.id/wp-content/uploads/2021/12/Logo-Web-80-1.png" alt="logo" class="w-auto h-16">
-        </div>
+        </a>
         <div class="flex flex-row gap-5 pr-20">
-            <a href="#Pendidikan" class="uppercase text-md text-black hover:text-yellow-500 duration-150 transition-all font-bold">Pendidikan</a>
-            <a href="#Penelitian" class="uppercase text-md text-black hover:text-yellow-500 duration-150 transition-all font-bold">Penelitian</a>
-            <a href="#Pengabdian" class="uppercase text-md text-black hover:text-yellow-500 duration-150 transition-all font-bold">Pengabdian</a>
-            <a href="#Internasional" class="uppercase text-md text-black hover:text-yellow-500 duration-150 transition-all font-bold">Internasional</a>
-            <a href="#Layanan" class="uppercase text-md text-black hover:text-yellow-500 duration-150 transition-all font-bold">Layanan</a>
+            <div class="relative group inline-block text-left">
+                <!-- Dropdown Button -->
+                <button class="uppercase text-md text-black hover:text-yellow-500 duration-150 transition-all font-bold">
+                    Pendidikan
+                </button>
+
+                <!-- Dropdown Menu -->
+                <div class="absolute right-0 ml-20 mt-9 w-48 bg-blue-700 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                    <a href="/program-pendidikan" class="block px-4 py-2 text-white hover:bg-blue-800">Program Pendidikan</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Penerimaan Mahasiswa Baru</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Merdeka Belajar Kampus Merdeka</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Informasi Beasiswa</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Fasilitas Kampus</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Jelajahi Yogyakarta</a>
+                </div>
+            </div>
+            <div class="relative group inline-block text-left">
+                <!-- Dropdown Button -->
+                <button class="uppercase text-md text-black hover:text-yellow-500 duration-150 transition-all font-bold">
+                    Penelitian
+                </button>
+
+                <!-- Dropdown Menu -->
+                <div class="absolute right-0 ml-20 mt-9 w-48 bg-blue-700 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Pusat Studi & Laboratorium</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Riset & Pengajaran</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Portal Jurnal</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Konferensi & Seminar</a>
+                </div>
+            </div>
+            <div class="relative group inline-block text-left">
+                <!-- Dropdown Button -->
+                <button class="uppercase text-md text-black hover:text-yellow-500 duration-150 transition-all font-bold">
+                    Pengabdian
+                </button>
+
+                <!-- Dropdown Menu -->
+                <div class="absolute right-0 ml-20 mt-9 w-48 bg-blue-700 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Pengabdian & Dakwah</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Lingkungan & Keberlanjutan</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Simpul Tumbuh</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Donasi UII Peduli</a>
+                </div>
+            </div>
+            <div class="relative group inline-block text-left">
+                <!-- Dropdown Button -->
+                <button class="uppercase text-md text-black hover:text-yellow-500 duration-150 transition-all font-bold">
+                    Internasional
+                </button>
+
+                <!-- Dropdown Menu -->
+                <div class="absolute right-0 ml-20 mt-9 w-48 bg-blue-700 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">International Admission</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Kantor Urusan Internasional</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Mobilitas Internasional</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Program Gelar Ganda</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Erasmus+ CBHE di UII</a>
+                </div>
+            </div>
+            <div class="relative group inline-block text-left">
+                <!-- Dropdown Button -->
+                <button class="uppercase text-md text-black hover:text-yellow-500 duration-150 transition-all font-bold">
+                    Layanan
+                </button>
+
+                <!-- Dropdown Menu -->
+                <div class="absolute right-0 ml-20 mt-9 w-48 bg-blue-700 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Mahasiswa</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Alumni</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Kemitraan</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Publik & Rekan Media</a>
+                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Paten & Hak Cipta</a>
+
+                </div>
+            </div>
             <a href="#Profil" class="uppercase text-md text-black hover:text-yellow-500 duration-150 transition-all font-bold">Profil</a>
         </div>
     </div>

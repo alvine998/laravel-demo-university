@@ -21,7 +21,7 @@
             </p>
         </div>
     </div>
-    <footer class="bg-gray-100 text-white text-center p-4 mt-8">
+    <footer class="bg-gray-100 text-white text-center p-4">
         <p class="text-xs text-black">&copy; Hak Cipta {{ $year }} - Universitas Islam Indonesia - Yayasan Badan Wakaf Universitas Islam Indonesia | <a href="#" class="font-bold">Pengelolaan Situs Web</a> | <a href="#" class="font-bold">Pernyataan Sangkalan</a> | <a href="#" class="font-bold">Tampilan Lama</a> | Konten terakhir dimutakhirkan 25 Januari 2025</p>
     </footer>
 </div>

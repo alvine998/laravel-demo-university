@@ -1,6 +1,6 @@
 <div class="fixed top-0 left-0 w-full z-50">
     <!-- Yellow Nav -->
-    <div id="yellowNav" class="bg-yellow-300 w-full h-10 py-1 px-4 flex flex-row justify-end items-center gap-3 transition-transform duration-300">
+    <div id="yellowNav" class="bg-yellow-300 w-full h-10 py-1 px-4 flex flex-row lg:flex-nowrap flex-wrap lg:justify-end justify-start items-center gap-3 transition-transform duration-300">
         <a href="#Admisi" class="text-blue-950 text-xs font-bold">Admisi</a>
         <p class="text-blue-950 text-xs font-bold">|</p>
         <a href="#Admisi" class="text-blue-950 text-xs font-bold">UII Gateway</a>
@@ -15,7 +15,7 @@
     </div>
 
     <!-- White Nav -->
-    <div class="bg-white py-4 flex flex-row justify-between items-center sticky top-0 px-10 shadow-md transition-transform duration-300" id="whiteNav">
+    <div class="bg-white py-4 hidden lg:flex flex-row justify-between items-center sticky top-0 px-10 shadow-md transition-transform duration-300" id="whiteNav">
         <a href="/">
             <img src="https://www.uii.ac.id/wp-content/uploads/2021/12/Logo-Web-80-1.png" alt="logo" class="w-auto h-16">
         </a>
@@ -99,10 +99,30 @@
         </div>
     </div>
 
+    <!-- Mobile White Nav -->
+    <div class="bg-white py-4 lg:hidden flex flex-row justify-between items-center sticky top-0 lg:px-10 px-2 shadow-md transition-transform duration-300" id="whiteNav2">
+        <a href="/">
+            <img src="https://www.uii.ac.id/wp-content/uploads/2021/12/Logo-Web-80-1.png" alt="logo" class="w-auto lg:h-16 h-10">
+        </a>
+        <div>
+            <!-- Sidebar Toggle Button -->
+            <button onclick="showSidebar()">
+                <i class="fa fa-bars text-black text-3xl"></i>
+            </button>
+            <!-- Sidebar -->
+            <div id="sidebar" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden transform transition-all duration-300">
+                <div class="w-64 bg-white h-full p-5 shadow-lg transform -translate-x-full transition-all duration-300" id="sidebarContent">
+                    <button onclick="hideSidebar()" class="text-black text-2xl">&times;</button>
+                    <p class="mt-5">Sidebar Content</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <script>
         let lastScrollTop = 0;
         const yellowNav = document.getElementById("yellowNav");
-
+        const whiteNav = document.getElementById("whiteNav");
+        const whiteNav2 = document.getElementById("whiteNav2");
         window.addEventListener("scroll", function() {
             let scrollTop = window.scrollY || document.documentElement.scrollTop;
 
@@ -110,14 +130,32 @@
                 // Scrolling Down → Hide yellow nav
                 yellowNav.classList.add("-translate-y-full");
                 whiteNav.classList.add("-translate-y-10");
+                whiteNav2.classList.add("-translate-y-10");
             } else {
                 // Scrolling Up → Show yellow nav
                 yellowNav.classList.remove("-translate-y-full");
                 whiteNav.classList.remove("-translate-y-10");
+                whiteNav2.classList.remove("-translate-y-10");
             }
-
             lastScrollTop = scrollTop;
         });
+    </script>
+    <script>
+        function showSidebar() {
+            const sidebar = document.getElementById("sidebar");
+            const sidebarContent = document.getElementById("sidebarContent");
+
+            sidebar.classList.remove("hidden"); // Show the overlay
+            sidebarContent.classList.remove("-translate-x-full"); // Slide in the sidebar
+        }
+
+        function hideSidebar() {
+            const sidebar = document.getElementById("sidebar");
+            const sidebarContent = document.getElementById("sidebarContent");
+
+            sidebarContent.classList.add("-translate-x-full"); // Slide out sidebar
+            setTimeout(() => sidebar.classList.add("hidden"), 300); // Hide after animation
+        }
     </script>
 
 </div>

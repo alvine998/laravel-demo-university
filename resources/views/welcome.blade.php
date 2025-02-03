@@ -1214,13 +1214,13 @@
 
 <body>
     <x-navbar />
-    <div class="bg-amber-100 w-full h-auto pt-32">
+    <div class="bg-amber-100 w-full h-auto lg:pt-32 pt-4">
         <!-- Banner Slider -->
-        <div class="bg-gray-500 w-full h-[500px] rounded-bl-[300px]"></div>
+        <div class="bg-gray-500 w-full lg:h-[500px] h-[300px] lg:rounded-bl-[300px] rounded-bl-[150px]"></div>
 
-        <div class="mt-20">
+        <div class="lg:mt-20 mt-5">
             <!-- Section 1: Introduction -->
-            <section class="grid grid-cols-2 gap-10 px-40">
+            <section class="grid lg:grid-cols-2 grid-cols-1 gap-10 lg:px-40 px-4">
                 <div class="w-full">
                     <h1 class="text-4xl text-blue-900">Kuliah di Universitas Islam Indonesia</h1>
                     <p class="mt-2">
@@ -1243,7 +1243,7 @@
             </section>
 
             <!-- Section 2: CTA -->
-            <section class="grid grid-cols-4 gap-10 px-40 mt-20">
+            <section class="grid lg:grid-cols-4 grid-cols-1 gap-10 lg:px-40 px-4 mt-20">
                 <div class="bg-white shadow p-4 flex flex-col justify-between">
                     <h2 class="text-blue-900 text-2xl">Pilihan Program Pendidikan</h2>
                     <p class="mt-2">
@@ -1283,13 +1283,13 @@
             </section>
 
             <!-- Section 3: PMB Information -->
-            <section class="px-40 mt-20">
-                <div class="bg-white w-full h-auto flex flex-row gap-20 items-center">
-                    <div class="bg-amber-300 w-1/6 rounded-br-[100px] h-full flex items-center justify-center py-16">
+            <section class="lg:px-40 px-4 mt-20">
+                <div class="bg-white w-full h-auto flex lg:flex-row flex-col lg:gap-20 gap-4 lg:items-center items-start">
+                    <div class="bg-amber-300 lg:w-1/6 w-full rounded-br-[100px] h-full flex items-center justify-center lg:py-16 py-4">
                         <i class="fa fa-info-circle text-black text-[100px]"></i>
                     </div>
-                    <div class="w-1/2">
-                        <p class="-mt-4">
+                    <div class="lg:w-1/2 w-full lg:p-0 p-4">
+                        <p class="lg:-mt-4 -mt-0">
                             <strong>Penerimaan Mahasiswa Baru (PMB UII)</strong> Program Diploma (D3), Sarjana Terapan(D4), dan Sarjana (S1) Tahun Akademik 2025/2026 dibuka mulai 27 September 2024.
                         </p>
                         <a href="#info" class="underline text-amber-500 hover:no-underline">Informasi Selengkapnya</a>
@@ -1299,18 +1299,20 @@
             </section>
 
             <!-- Section 4: Hero -->
-            <section class="px-40 mt-20">
-                <img src="https://www.uii.ac.id/wp-content/uploads/2021/12/Beranda-2-1.png" alt="homebase" class="w-full h-auto rounded-bl-[200px]">
+            <section class="lg:px-40 px-4 mt-20">
+                <img src="https://www.uii.ac.id/wp-content/uploads/2021/12/Beranda-2-1.png" alt="homebase" class="w-full lg:h-auto h-[250px] lg:rounded-bl-[200px] rounded-bl-[100px]">
             </section>
 
             <!-- Section 5: Other Information -->
-            <section class="grid grid-cols-3 gap-10 px-40 bg-white w-full py-10 mt-20">
-                <div>
+            <section class="grid lg:grid-cols-3 grid-cols-1 gap-10 lg:px-40 px-4 bg-white w-full py-10 mt-20">
+                <div >
                     <h2 class="text-blue-900 text-3xl">Pionir Pendidikan Tinggi di Indonesia</h2>
                     <p class="mt-2">
                         Universitas Islam Indonesia didirikan pada 8 Juli 1945. Dengan pengalaman lebih dari 70 tahun, UII berkomitmen mencetak pemimpin masa depan melalui program pendidikan unggul yang berlandaskan nilai-nilai keislaman dan kebangsaan. Temukan kesempatan untuk mengembangkan potensi terbaik Anda dengan menjadi bagian dari Universitas Islam Indonesia.
                     </p>
+                    <div class="flex lg:flex-row flex-col lg:justify-center justify-start">
                     <img src="https://www.uii.ac.id/wp-content/uploads/2022/04/Akreditasi-Unggul-265x300.png" alt="kampus-merdeka" class="w-auto h-auto mt-4">
+                    </div>
                 </div>
                 <div class="flex flex-col gap-4">
                     <div class="shadow p-2 flex flex-col justify-between">
@@ -1373,7 +1375,7 @@
             </section>
 
             <!-- Section 6: News & Opinion -->
-            <section class="mt-20 px-40">
+            <section class="mt-20 lg:px-40 px-4">
                 <h1 class="text-4xl text-blue-900 text-center">Berita & Opini</h1>
                 <h5 class="text-xl text-black mt-7 text-center">Tetap terhubung dengan berita dan informasi terbaru tentang berbagai aktivitas di Kampus Universitas Islam Indonesia</h5>
 
@@ -1382,9 +1384,9 @@
                     <h5 class="text-blue-900 text-2xl w-1/6 font-bold">Berita Pilihan</h5>
                     <hr class="w-full border-b border-blue-900" />
                 </div>
-                <div class="grid grid-cols-3 gap-5 mt-5">
+                <div class="grid lg:grid-cols-3 grid-cols-1 gap-5 mt-5">
                     <div>
-                        <div id="news" class="bg-gray-500 w-full h-[400px]">
+                        <div id="news" class="bg-gray-500 w-full h-[400px] lg:mt-0 mt-4">
 
                         </div>
                         <div id="loading" class="-mt-24 px-4">
@@ -1392,7 +1394,7 @@
                         </div>
                     </div>
                     <div>
-                        <div id="news" class="bg-gray-500 w-full h-[400px]">
+                        <div id="news" class="bg-gray-500 w-full h-[400px] lg:mt-0 mt-4">
 
                         </div>
                         <div id="loading" class="-mt-24 px-4">
@@ -1400,7 +1402,7 @@
                         </div>
                     </div>
                     <div>
-                        <div id="news" class="bg-gray-500 w-full h-[400px]">
+                        <div id="news" class="bg-gray-500 w-full h-[400px] lg:mt-0 mt-4">
 
                         </div>
                         <div id="loading" class="-mt-24 px-4">
@@ -1419,9 +1421,9 @@
                     <h5 class="text-blue-900 text-2xl w-1/6 font-bold">Pojok Rektor</h5>
                     <hr class="w-full border-b border-blue-900" />
                 </div>
-                <div class="grid grid-cols-3 gap-5 mt-5">
+                <div class="grid lg:grid-cols-3 grid-cols-1 gap-5 mt-5">
                     <div>
-                        <div id="news" class="bg-gray-500 w-full h-[400px]">
+                        <div id="news" class="bg-gray-500 w-full h-[400px] lg:mt-0 mt-4">
 
                         </div>
                         <div id="loading" class="-mt-24 px-4">
@@ -1429,7 +1431,7 @@
                         </div>
                     </div>
                     <div>
-                        <div id="news" class="bg-gray-500 w-full h-[400px]">
+                        <div id="news" class="bg-gray-500 w-full h-[400px] lg:mt-0 mt-4">
 
                         </div>
                         <div id="loading" class="-mt-24 px-4">
@@ -1437,7 +1439,7 @@
                         </div>
                     </div>
                     <div>
-                        <div id="news" class="bg-gray-500 w-full h-[400px]">
+                        <div id="news" class="bg-gray-500 w-full h-[400px] lg:mt-0 mt-4">
 
                         </div>
                         <div id="loading" class="-mt-24 px-4">
@@ -1453,7 +1455,7 @@
             </section>
 
             <!-- Section 7: Outro -->
-            <section class="grid grid-cols-2 gap-10 px-40 mt-20">
+            <section class="grid lg:grid-cols-2 grid-cols-1 gap-10 lg:px-40 px-4 mt-20">
                 <div class="w-full">
                     <img src="https://www.uii.ac.id/wp-content/uploads/2022/04/Beranda-6.png" alt="img1" class="rounded-br-[200px]">
                 </div>
@@ -1480,7 +1482,7 @@
             </section>
 
             <!-- Section 8: NavMiddle -->
-            <section class="grid grid-cols-4 gap-10 px-40 bg-white w-full py-10 mt-20">
+            <section class="grid lg:grid-cols-4 grid-cols-1 gap-10 lg:px-40 px-4 bg-white w-full py-10 mt-20">
                 <div>
                     <h5 class="text-blue-900 text-2xl font-semibold">Pranala Penting</h5>
                     <div class="flex flex-col mt-2">
@@ -1525,9 +1527,9 @@
             </section>
 
             <!-- Section 9: Social Media &  -->
-            <section class="px-40 bg-white w-full py-10">
+            <section class="lg:px-40 px-4 bg-white w-full py-10">
                 <h1 class="text-4xl text-blue-900 text-center">Ikuti UII di Sosial Media</h1>
-                <div class="flex flex-row gap-10 justify-center items-center mt-10 border-b border-b-blue-900 pb-10">
+                <div class="flex flex-row flex-wrap lg:flex-nowrap gap-10 justify-center items-center mt-10 border-b border-b-blue-900 pb-10">
                     <button class="bg-gray-800 rounded-full w-20 h-20 p-4 hover:bg-blue-700 duration-150 transition-all">
                         <i class="fab fa-facebook text-white text-4xl"></i>
                     </button>

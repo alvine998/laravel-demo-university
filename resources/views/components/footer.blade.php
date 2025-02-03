@@ -1,6 +1,6 @@
 <div>
     <!-- Smile, breathe, and go slowly. - Thich Nhat Hanh -->
-    <div class="bg-amber-400 py-10 px-20 flex flex-row justify-between w-full">
+    <div class="bg-amber-400 py-10 lg:px-20 px-4 flex lg:flex-row flex-col justify-between w-full">
         <div class="w-full">
             <img src="https://www.uii.ac.id/wp-content/uploads/2020/02/UII-Web-Logo-300x103.png" alt="logo" class="w-auto h-16">
             <p class="mt-4">
@@ -14,7 +14,7 @@
                 Email: info@uii.ac.id
             </p>
         </div>
-        <div class="w-1/2">
+        <div class="lg:w-1/2 w-full lg:mt-0 mt-5">
             <img src="https://www.uii.ac.id/wp-content/uploads/2024/05/akreditasi-nasional-uii-705x100.png" alt="support" class="w-auto h-16">
             <p class="mt-2">
                 <strong>Akreditasi Institusi Unggul.</strong> Universitas Islam Indonesia telah mendapatkan Akreditasi Institusi Unggul dari Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT) pada tahun 2022.

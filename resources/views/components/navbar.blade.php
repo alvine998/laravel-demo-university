@@ -110,8 +110,8 @@
                 <i class="fa fa-bars text-black text-3xl"></i>
             </button>
             <!-- Sidebar -->
-            <div id="sidebar" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden transform transition-all duration-300">
-                <div class="w-64 bg-white h-full p-5 shadow-lg transform -translate-x-full transition-all duration-300" id="sidebarContent">
+            <div id="sidebar" class="fixed inset-0 bg-black bg-opacity-50 z-40 hidden transition-opacity duration-300">
+                <div id="sidebarContent" class="w-64 bg-white h-full p-5 shadow-lg fixed right-0 top-0 transform translate-x-full transition-transform duration-300 ease-in-out">
                     <button onclick="hideSidebar()" class="text-black text-2xl">&times;</button>
                     <p class="mt-5">Sidebar Content</p>
                 </div>
@@ -145,15 +145,19 @@
             const sidebar = document.getElementById("sidebar");
             const sidebarContent = document.getElementById("sidebarContent");
 
-            sidebar.classList.remove("hidden"); // Show the overlay
-            sidebarContent.classList.remove("-translate-x-full"); // Slide in the sidebar
+            sidebar.classList.remove("hidden"); // Show overlay
+            setTimeout(() => {
+                sidebar.classList.add("opacity-100"); // Fade in background
+                sidebarContent.classList.remove("translate-x-full"); // Slide in sidebar
+            }, 10); // Small delay to trigger transition
         }
 
         function hideSidebar() {
             const sidebar = document.getElementById("sidebar");
             const sidebarContent = document.getElementById("sidebarContent");
 
-            sidebarContent.classList.add("-translate-x-full"); // Slide out sidebar
+            sidebarContent.classList.add("translate-x-full"); // Slide out sidebar
+            sidebar.classList.remove("opacity-100"); // Fade out background
             setTimeout(() => sidebar.classList.add("hidden"), 300); // Hide after animation
         }
     </script>

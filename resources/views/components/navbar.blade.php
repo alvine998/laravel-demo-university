@@ -31,7 +31,7 @@
                     <a href="/program-pendidikan" class="block px-4 py-2 text-white hover:bg-blue-800">Program Pendidikan</a>
                     <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Penerimaan Mahasiswa Baru</a>
                     <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Merdeka Belajar Kampus Merdeka</a>
-                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Informasi Beasiswa</a>
+                    <a href="/informasi-beasiswa" class="block px-4 py-2 text-white hover:bg-blue-800">Informasi Beasiswa</a>
                     <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Fasilitas Kampus</a>
                     <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Jelajahi Yogyakarta</a>
                 </div>

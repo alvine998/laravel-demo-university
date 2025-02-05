@@ -62,6 +62,26 @@
                 </p>
             </div>
         </div>
+        <div class="px-40 mt-20">
+            <hr>
+        </div>
+        <div class="flex lg:flex-row flex-row gap-2 lg:px-40 px-4 mt-10">
+            <div class="w-1/4">
+                <img src="https://www.uii.ac.id/wp-content/uploads/2020/04/UII-EC-1.png" alt="logo excelent">
+            </div>
+            <div class="w-full">
+                <h5 class="font-bold text-black text-2xl mt-4">UII Excelent Community</h5>
+                <p class="mt-2">
+                    Mahasiswa UII yang berstatus sebagai penerima beasiswa dibina secara khusus oleh Universitas melalui program-program DPK UII. DPK UII membentuk sebuah unit khusus atau komunitas yang diberi nama UII Excellent Community yang beranggotakan semua mahasiswa penerima Beasiswa Bidik Misi, Beasiswa Unggulan UII, Beasiswa Hafidz/Hafizah.
+                </p>
+                <p class="mt-2">
+                    Program-program bagi UII Excellent Community didesain dan dikawal secara sungguh-sungguh oleh Divisi Kepribadian dan Kesejahteraan DPK UII bekerja sama dengan Pusat Psikologi Terapan UII dengan harapan bahwa para mahasiswa penerima beasiswa benar-benar mampu menjadi pribadi yang unggul dan berkontribusi aktif dalam kegiatan di kampus maupun di luar kampus.
+                </p>
+                <p class="mt-2">
+                    Area pengembangan yang diterapkan pada UII Excellent Community adalah Islamic characters, academic skills, social skills, leadership skills, dan sensitivity to social problems. Sedangkan aktivitas pembinaan yang rutin dilaksanakan di antaranya meliputi pelatihan intrapersonal, pelatihan interpersonal, pelatihan kepemimpinan Islami (outbond training), kelas inspirasi, social project competition.
+                </p>
+            </div>
+        </div>
     </div>
     <x-footer />
 </body>

@@ -13,7 +13,9 @@ Route::get('/program-pendidikan', function () {
 Route::get('/informasi-beasiswa', function () {
     return view('scholarship-info');
 });
-
+Route::get('/kehidupan-mahasiswa', function () {
+    return view('facilities');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

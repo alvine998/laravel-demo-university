@@ -2,7 +2,7 @@
     <div class="space-y-4">
         @foreach ($faqs as $faq)
         <div x-data="{ open: false }" class="border-b border-gray-200 pb-1">
-            <button @click="open = !open" class="w-full text-left flex justify-between items-center py-1 text-md font-semibold text-gray-700 hover:text-white hover:bg-blue-700 transition-all duration-300 rounded">
+            <button @click="open = !open" class="w-full text-left flex justify-between items-center py-1 text-md font-semibold text-gray-700 hover:text-white hover:bg-blue-700 px-2 transition-all duration-300 rounded">
                 {{ $faq['question'] }}
                 <span x-show="!open" class="transition-transform duration-200">+</span>
                 <span x-show="open" class="transition-transform duration-200">-</span>

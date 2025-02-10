@@ -33,7 +33,7 @@
                     <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Merdeka Belajar Kampus Merdeka</a>
                     <a href="/informasi-beasiswa" class="block px-4 py-2 text-white hover:bg-blue-800">Informasi Beasiswa</a>
                     <a href="/kehidupan-mahasiswa" class="block px-4 py-2 text-white hover:bg-blue-800">Fasilitas Kampus</a>
-                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Jelajahi Yogyakarta</a>
+                    <a href="jelajahi-yogyakarta" class="block px-4 py-2 text-white hover:bg-blue-800">Jelajahi Yogyakarta</a>
                 </div>
             </div>
             <div class="relative group inline-block text-left">

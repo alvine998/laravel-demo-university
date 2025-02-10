@@ -16,6 +16,9 @@ Route::get('/informasi-beasiswa', function () {
 Route::get('/kehidupan-mahasiswa', function () {
     return view('facilities');
 });
+Route::get('/jelajahi-yogyakarta', function () {
+    return view('explore-city');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

@@ -20,6 +20,10 @@ Route::get('/jelajahi-yogyakarta', function () {
     return view('explore-city');
 });
 
+Route::get('/pusat-studi-laboratorium', function () {
+    return view('study-center');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

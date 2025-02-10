@@ -7,7 +7,7 @@
                 <span x-show="!open" class="transition-transform duration-200">+</span>
                 <span x-show="open" class="transition-transform duration-200">-</span>
             </button>
-            <div x-show="open" x-transition.duration.200ms class="overflow-hidden">
+            <div x-show="open" x-transition.duration.200ms class="overflow-hidden p-2">
                 <p class="text-gray-600 mt-2">{{ $faq['answer'] }}</p>
             </div>
         </div>

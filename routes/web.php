@@ -29,6 +29,9 @@ Route::get('/riset-pengajaran', function () {
 Route::get('/jurnal', function () {
     return view('journal');
 });
+Route::get('/konferensi-dan-seminar', function () {
+    return view('conference');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

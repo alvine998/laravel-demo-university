@@ -33,6 +33,10 @@ Route::get('/konferensi-dan-seminar', function () {
     return view('conference');
 });
 
+Route::get('/pengabdian-dakwah', function () {
+    return view('dedication');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

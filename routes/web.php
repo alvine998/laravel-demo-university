@@ -23,6 +23,9 @@ Route::get('/jelajahi-yogyakarta', function () {
 Route::get('/pusat-studi-laboratorium', function () {
     return view('study-center');
 });
+Route::get('/riset-pengajaran', function () {
+    return view('research');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

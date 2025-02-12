@@ -45,7 +45,7 @@
                 <!-- Dropdown Menu -->
                 <div class="absolute right-0 ml-20 mt-9 w-48 bg-blue-700 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                     <a href="/pusat-studi-laboratorium" class="block px-4 py-2 text-white hover:bg-blue-800">Pusat Studi & Laboratorium</a>
-                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Riset & Pengajaran</a>
+                    <a href="/riset-pengajaran" class="block px-4 py-2 text-white hover:bg-blue-800">Riset & Pengajaran</a>
                     <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Portal Jurnal</a>
                     <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Konferensi & Seminar</a>
                 </div>
@@ -100,7 +100,7 @@
     </div>
 
     <!-- Mobile White Nav -->
-    <div class="bg-white py-4 lg:hidden flex flex-row justify-between items-center sticky top-0 lg:px-10 px-2 shadow-md transition-transform duration-300" id="whiteNav2">
+    <div class="bg-white py-4 lg:hidden flex flex-row justify-between items-center sticky top-0 lg:px-10 px-2 shadow-md transition-transform duration-300 z-50" id="whiteNav2">
         <a href="/">
             <img src="https://www.uii.ac.id/wp-content/uploads/2021/12/Logo-Web-80-1.png" alt="logo" class="w-auto lg:h-16 h-10">
         </a>

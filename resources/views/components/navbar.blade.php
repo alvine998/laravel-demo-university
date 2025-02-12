@@ -46,7 +46,7 @@
                 <div class="absolute right-0 ml-20 mt-9 w-48 bg-blue-700 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                     <a href="/pusat-studi-laboratorium" class="block px-4 py-2 text-white hover:bg-blue-800">Pusat Studi & Laboratorium</a>
                     <a href="/riset-pengajaran" class="block px-4 py-2 text-white hover:bg-blue-800">Riset & Pengajaran</a>
-                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Portal Jurnal</a>
+                    <a href="/jurnal" class="block px-4 py-2 text-white hover:bg-blue-800">Portal Jurnal</a>
                     <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Konferensi & Seminar</a>
                 </div>
             </div>

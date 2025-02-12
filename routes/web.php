@@ -26,6 +26,9 @@ Route::get('/pusat-studi-laboratorium', function () {
 Route::get('/riset-pengajaran', function () {
     return view('research');
 });
+Route::get('/jurnal', function () {
+    return view('journal');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

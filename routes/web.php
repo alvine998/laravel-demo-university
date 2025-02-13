@@ -36,6 +36,9 @@ Route::get('/konferensi-dan-seminar', function () {
 Route::get('/pengabdian-dakwah', function () {
     return view('dedication');
 });
+Route::get('/lingkungan-keberlanjutan', function () {
+    return view('environment');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

@@ -60,7 +60,7 @@
                 <div class="absolute right-0 ml-20 mt-9 w-48 bg-blue-700 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                     <a href="/pengabdian-dakwah" class="block px-4 py-2 text-white hover:bg-blue-800">Pengabdian & Dakwah</a>
                     <a href="/lingkungan-keberlanjutan" class="block px-4 py-2 text-white hover:bg-blue-800">Lingkungan & Keberlanjutan</a>
-                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Simpul Tumbuh</a>
+                    <a href="/simpul-tumbuh" class="block px-4 py-2 text-white hover:bg-blue-800">Simpul Tumbuh</a>
                     <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Donasi UII Peduli</a>
                 </div>
             </div>

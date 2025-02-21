@@ -39,6 +39,9 @@ Route::get('/pengabdian-dakwah', function () {
 Route::get('/lingkungan-keberlanjutan', function () {
     return view('environment');
 });
+Route::get('/simpul-tumbuh', function () {
+    return view('growth');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

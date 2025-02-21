@@ -61,7 +61,7 @@
                     <a href="/pengabdian-dakwah" class="block px-4 py-2 text-white hover:bg-blue-800">Pengabdian & Dakwah</a>
                     <a href="/lingkungan-keberlanjutan" class="block px-4 py-2 text-white hover:bg-blue-800">Lingkungan & Keberlanjutan</a>
                     <a href="/simpul-tumbuh" class="block px-4 py-2 text-white hover:bg-blue-800">Simpul Tumbuh</a>
-                    <a href="#" class="block px-4 py-2 text-white hover:bg-blue-800">Donasi UII Peduli</a>
+                    <a href="/uiipeduli" class="block px-4 py-2 text-white hover:bg-blue-800">Donasi UII Peduli</a>
                 </div>
             </div>
             <div class="relative group inline-block text-left">

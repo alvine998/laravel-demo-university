@@ -42,6 +42,9 @@ Route::get('/lingkungan-keberlanjutan', function () {
 Route::get('/simpul-tumbuh', function () {
     return view('growth');
 });
+Route::get('/uiipeduli', function () {
+    return view('care');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

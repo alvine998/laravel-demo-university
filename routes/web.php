@@ -46,6 +46,10 @@ Route::get('/uiipeduli', function () {
     return view('care');
 });
 
+Route::get('/kui', function () {
+    return view('kui');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

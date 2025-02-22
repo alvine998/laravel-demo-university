@@ -49,6 +49,9 @@ Route::get('/uiipeduli', function () {
 Route::get('/kui', function () {
     return view('kui');
 });
+Route::get('/mobilitas', function () {
+    return view('mobilitas');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
